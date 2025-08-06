@@ -30,7 +30,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <Router basename="/landingpage">
+      <Router>
         <div className="App min-h-screen relative">
           {/* Global Animated Background */}
           <div className="fixed inset-0 z-0">
