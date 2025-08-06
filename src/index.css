@@ -303,4 +303,97 @@
   .earth-theme-transition * {
     transition: all 0.3s ease;
   }
+
+  /* HubSpot Form Styling */
+  .hubspot-form-container {
+    width: 100%;
+  }
+
+  /* Style HubSpot form elements */
+  .hs-form-frame {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .hs-form-frame iframe {
+    background: transparent !important;
+    border: none !important;
+  }
+
+  /* Override HubSpot default styles */
+  .hs-form-frame .hs-form {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .hs-form-frame .hs-form input,
+  .hs-form-frame .hs-form textarea,
+  .hs-form-frame .hs-form select {
+    background-color: rgb(30 41 59) !important;
+    border: 1px solid rgb(51 65 85) !important;
+    border-radius: 0.5rem !important;
+    color: white !important;
+    padding: 0.75rem 1rem !important;
+    width: 100% !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .hs-form-frame .hs-form input:focus,
+  .hs-form-frame .hs-form textarea:focus,
+  .hs-form-frame .hs-form select:focus {
+    outline: none !important;
+    border-color: #0ea5e9 !important;
+    box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.25) !important;
+  }
+
+  .hs-form-frame .hs-form label {
+    color: white !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.5rem !important;
+    display: block !important;
+  }
+
+  .hs-form-frame .hs-form input[type="submit"],
+  .hs-form-frame .hs-form button[type="submit"] {
+    background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    padding: 1rem 2rem !important;
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .hs-form-frame .hs-form input[type="submit"]:hover,
+  .hs-form-frame .hs-form button[type="submit"]:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 10px 25px rgba(14, 165, 233, 0.25) !important;
+  }
+
+  /* Light theme adjustments for HubSpot form */
+  .light-theme .hs-form-frame .hs-form input,
+  .light-theme .hs-form-frame .hs-form textarea,
+  .light-theme .hs-form-frame .hs-form select {
+    background-color: rgb(248 250 252) !important;
+    border: 1px solid rgb(203 213 225) !important;
+    color: rgb(15 23 42) !important;
+  }
+
+  .light-theme .hs-form-frame .hs-form label {
+    color: rgb(15 23 42) !important;
+  }
+
+  .light-theme .hs-form-frame .hs-form input:focus,
+  .light-theme .hs-form-frame .hs-form textarea:focus,
+  .light-theme .hs-form-frame .hs-form select:focus {
+    border-color: #0284c7 !important;
+    box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.25) !important;
+  }
 } 

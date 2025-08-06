@@ -36,6 +36,13 @@ A modern, responsive website for HiveSurf Digital Marketing Agency with advanced
 - **Touch Friendly**: Proper touch targets and gestures
 - **Performance Optimized**: Efficient animations and rendering
 
+### 📊 HubSpot Integration
+- **Lead Capture Forms**: Professional HubSpot forms integrated throughout the site
+- **Source Tracking**: Hidden fields to track lead sources (Contact Page, Start Now Modal, etc.)
+- **Automated Lead Management**: All form submissions automatically go to HubSpot CRM
+- **Custom Styling**: HubSpot forms styled to match the website's design theme
+- **Multi-Location Integration**: Forms embedded in Contact page and Start Now modal
+
 ## 🛠️ Technology Stack
 
 - **React 18**: Modern React with hooks
@@ -81,6 +88,7 @@ src/
 │   ├── AnimatedButton.js        # Reusable animated button component
 │   ├── Footer.js               # Site footer
 │   ├── HiveSurfLogo.js         # Animated logo component
+│   ├── HubSpotForm.js          # HubSpot form integration component
 │   ├── LoadingScreen.js        # Initial loading screen
 │   ├── Navbar.js               # Navigation with theme toggle
 │   ├── PageTransition.js       # Page transition wrapper

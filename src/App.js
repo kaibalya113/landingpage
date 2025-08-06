@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
@@ -42,7 +42,8 @@ function App() {
             <Navbar />
             <AnimatePresence mode="wait">
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Navigate to="/home" replace />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/contact" element={<Contact />} />
