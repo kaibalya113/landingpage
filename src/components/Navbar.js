@@ -24,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'Home', path: '/home' },
+    { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Contact', path: '/contact' },
@@ -45,7 +45,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <Link to="/home" className="flex items-center space-x-3">
+            <Link to="/" className="flex items-center space-x-3">
               <HiveSurfLogo size={40} />
               <span className="text-2xl font-bold gradient-text font-display">
                 HiveSurf
